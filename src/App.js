@@ -1,9 +1,19 @@
+import { DATA } from './data'
 import './App.css'
+import PizzaList from './components/PizzaList'
+import Header from './components/Header'
+
+const pizzaData = DATA
 
 function App() {
   return (
     <div className='App'>
-      <h1>Its the start</h1>
+      <div className='container'>
+        <Header />
+        <div className='menu'>
+          <PizzaList pizzaData={pizzaData} />
+        </div>
+      </div>
     </div>
   )
 }
