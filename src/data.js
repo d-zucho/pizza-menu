@@ -17,15 +17,15 @@ export const DATA = [
     name: 'Pizza Spinaci',
     ingredients: 'Tomato, mozarella, spinach, and ricotta cheese',
     price: 12,
-    photoName: 'pizzas/spinaci.jpg',
+    photoName: '/pizzas/spinaci.jpg',
     soldOut: false,
   },
   {
     name: 'Pizza Funghi',
     ingredients: 'Tomato, mozarella, mushrooms, and onion',
     price: 12,
-    photoName: 'pizzas/funghi.jpg',
-    soldOut: false,
+    photoName: '/pizzas/funghi.jpg',
+    soldOut: true,
   },
   {
     name: 'Pizza Salamino',

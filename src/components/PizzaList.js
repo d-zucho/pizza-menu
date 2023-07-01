@@ -1,9 +1,9 @@
 import Pizza from './Pizza'
 
-function PizzaList(props) {
+function PizzaList({ pizzaData }) {
   return (
     <div className='pizzas'>
-      {props.pizzaData.map((pizza) => (
+      {pizzaData.map((pizza) => (
         <Pizza key={pizza.name} pizza={pizza} />
       ))}
     </div>
